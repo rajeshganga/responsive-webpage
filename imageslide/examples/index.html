@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tiny Slide</title>
+    <link href="../css/tinyslide.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js" /></script>
+    <script src="../js/tinyslide.js" /></script>
+  </head>
+  <body>
+
+    <section id="tiny" class="tinyslide">
+      <aside class="slides">
+        <figure>
+          <img src="images/slide1.jpg" alt="" />
+          <figcaption>
+            Neat Stuff
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/slide2.jpg" alt="" />
+          <figcaption>
+            More Text
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/slide3.jpg" alt="" />
+          <figcaption>
+            Even More Text
+          </figcaption>
+        </figure>
+      </aside>
+    </section>
+    <script>
+      var tiny = $('#tiny').tiny().data('api_tiny');
+    </script>
+
+  </body>
+</html>

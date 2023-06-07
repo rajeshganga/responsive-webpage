@@ -1,0 +1,54 @@
+body{
+margin-top:70px;
+}
+
+body::before{
+content:'xs';
+color : orangered;
+font-size:30px;
+position:fixed;
+font-weight:bold;
+top:10px;
+left:10px;}
+
+
+@media (min-width:576px)
+{
+body::before{
+content:'sm';}
+
+ }
+
+
+
+
+@media (min-width:768px)
+{
+body::before{
+content:'md';}
+
+ }
+
+
+@media (min-width:992px)
+{
+body::before{
+content:'lg';}
+
+ }
+
+
+@media (min-width:1200px)
+{
+body::before{
+content:'xl';}
+
+ }
+
+@media (min-width:1400px)
+{
+body::before{
+content:'xxl';}
+
+ }
+
