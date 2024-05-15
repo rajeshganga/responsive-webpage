@@ -1,5 +1,6 @@
 body{
 margin-top:70px;
+
 }
 
 body::before{
@@ -8,7 +9,7 @@ color : orangered;
 font-size:30px;
 position:fixed;
 font-weight:bold;
-top:10px;
+top:5px;
 left:10px;}
 
 
