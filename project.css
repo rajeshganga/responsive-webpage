@@ -8,7 +8,7 @@ color:rgb(255,255,255);
 
 .dropdown-menu
 {
-background: rgb(33,37,41);
+background: red;
 
 }
 
@@ -23,7 +23,7 @@ color:rgb(255,255,255);
 background:rgb(11,94,215);
 }
 .set1{
-margin-top:-7px;
+margin-top:20px;
 }
 
 .set2{
